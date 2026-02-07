@@ -1,5 +1,5 @@
 {
-    "name": "arieo.engine.interface.main",
+    "name": "ArieoEngine-Interface-Main",
     "description": "Main interface for engine",
     "build_commands":
     [
