@@ -5,7 +5,6 @@ project(ArieoEngine)
 
 arieo_engine_project(
     arieo_main_interface
-    ALIAS arieo::interface::main
     ROOT_NAMESPACE Arieo::Interface::Main
     SCRIPT_PACKAGE_NAME arieo:main
     PROJECT_TYPE interface
@@ -13,10 +12,10 @@ arieo_engine_project(
         ${CMAKE_CURRENT_SOURCE_DIR}/public/include
     PACKAGES
         yaml-cpp
-    LIBS
-        yaml-cpp::yaml-cpp
+        ArieoEngine-Interface-Archive
     INTERFACES
-        arieo::interface::archive
+        yaml-cpp::yaml-cpp
+        ArieoEngine-Interface-Archive::arieo_archive_interface
     AST_GENERATE_FOLDER
         ${CMAKE_CURRENT_SOURCE_DIR}/_generated/ast
     NATIVE_CODE_GENERATE_FOLDER
