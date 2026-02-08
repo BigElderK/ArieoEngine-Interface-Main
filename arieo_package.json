@@ -1,5 +1,5 @@
 {
-    "name": "ArieoEngine-Interface-Main",
+    "name": "Arieo-Interface-Main",
     "description": "Main interface for engine",
     "build_commands":
     [
@@ -13,15 +13,15 @@
     {
         "packages": [
             {
-                "git_url": "https://github.com/BigElderK/ArieoEngine-BuildEnv.git",
+                "git_url": "https://github.com/BigElderK/Arieo-BuildEnv.git",
                 "tag": "main"
             },
             {
-                "git_url": "https://github.com/BigElderK/ArieoEngine-Core.git",
+                "git_url": "https://github.com/BigElderK/Arieo-Core.git",
                 "tag": "main"
             },
             {
-                "git_url": "https://github.com/BigElderK/ArieoEngine-Interface-Archive.git",
+                "git_url": "https://github.com/BigElderK/Arieo-Interface-Archive.git",
                 "tag": "main"
             }
         ]

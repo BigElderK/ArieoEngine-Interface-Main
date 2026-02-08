@@ -12,10 +12,10 @@ arieo_engine_project(
         ${CMAKE_CURRENT_SOURCE_DIR}/public/include
     PACKAGES
         yaml-cpp
-        ArieoEngine-Interface-Archive
+        Arieo-Interface-Archive
     INTERFACES
         yaml-cpp::yaml-cpp
-        ArieoEngine-Interface-Archive::arieo_archive_interface
+        Arieo-Interface-Archive::arieo_archive_interface
     AST_GENERATE_FOLDER
         ${CMAKE_CURRENT_SOURCE_DIR}/_generated/ast
     NATIVE_CODE_GENERATE_FOLDER
