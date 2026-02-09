@@ -1,6 +1,8 @@
 #pragma once
 #include <stdio.h>
 #include "interface/archive/archive.h"
+#include "core/coroutine/task.h"
+
 using namespace Arieo;
 namespace Arieo::Interface::Main
 {
