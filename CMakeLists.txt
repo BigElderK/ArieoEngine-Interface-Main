@@ -10,10 +10,10 @@ arieo_engine_project(
     PACKAGES
         Arieo-Core
         Arieo-Interface-Archive
-    PRIVATE_LIBS
-        Arieo-Core::arieo_core
     INTERFACES
         Arieo-Interface-Archive::arieo_archive_interface
+    PRIVATE_LIBS
+        Arieo-Core::arieo_core
 
     PUBLIC_INCLUDE_FOLDERS
         ${CMAKE_CURRENT_SOURCE_DIR}/public/include
